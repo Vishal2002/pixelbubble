@@ -69,19 +69,19 @@ export default function InputBox({ onImageUpload, onPixelSizeChange, pixelSize, 
               <RadioGroupItem value="pixel" id="pixel" />
               <Label htmlFor="pixel">Pixel Art</Label>
             </div>
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <RadioGroupItem value="ascii" id="ascii" />
               <Label htmlFor="ascii">ASCII Art</Label>
-            </div>
+            </div> */}
           </RadioGroup>
         </div>
 
         {outputType === 'pixel' && (
           <div className="space-y-2">
-            {/* <Label htmlFor="pixel-size" className="text-sm font-medium text-gray-700">
+            <Label htmlFor="pixel-size" className="text-sm font-medium text-gray-700">
               Pixel Size: {pixelSize}
-            </Label> */}
-            {/* <Slider
+            </Label> 
+           <Slider
               id="pixel-size"
               min={1}
               max={10}
@@ -89,7 +89,7 @@ export default function InputBox({ onImageUpload, onPixelSizeChange, pixelSize, 
               value={[pixelSize]}
               onValueChange={(value:any) => onPixelSizeChange(value[0])}
               className="w-full"
-            /> */}
+            />
           </div>
         )}
       </CardContent>
