@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-             src="/Pixels.png"
+             src="/pixels.png"
              width={30}
              height={30}
              alt="Pixels"
