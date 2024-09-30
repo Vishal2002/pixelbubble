@@ -25,14 +25,14 @@ export default function Navbar() {
               </Link>
             </Button>
             <Button className=' cursor-pointer' variant="outline" size="sm" asChild>
-              <Link href="https://peerlist.io/vishal2002" target="_blank" rel="noopener noreferrer">
+              <Link href="https://peerlist.io/vishal2002/project/pixelbubble" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Peerlist.png"
                   width={30}
                   height={30}
                   alt="Peerlist"
                 />
-                <span className='text-md font-semibold'>Peerlist</span>
+                <span className='text-md font-semibold'>Upvote on Peerlist</span>
                 
               </Link>
             </Button>
